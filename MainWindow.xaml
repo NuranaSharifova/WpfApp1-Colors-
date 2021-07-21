@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+          
+        </Grid.ColumnDefinitions>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>-->
+        <TabPanel>
+          
+            <Button Grid.Column="0" Content="Navy" Foreground="Navy" />
+            <Button Grid.Column="0" Content="Blue" Foreground="Blue" />
+            <Button Grid.Column="0" Content="Aqua" Foreground="Aqua" />
+            <Button Grid.Column="0" Content="Teal" Foreground="Teal" />
+            <Button Grid.Column="0" Content="Olive" Foreground="Olive" />
+
+            <Button  Grid.Column="0" Content="Green" Foreground="Green" />
+            <Button  Grid.Column="0" Content="Lime" Foreground="Lime" />
+            <Button Grid.Column="0" Content="Yellow" Foreground="Yellow" />
+            <Button Grid.Column="0" Content="Orange" Foreground="Orange" />
+            <Button Grid.Column="0" Content="Red" Foreground="Red" />
+
+            <Button Grid.Column="0" Content="Maroon" Foreground="Maroon" />
+            <Button Grid.Column="0" Content="Fuchsia" Foreground="Fuchsia" />
+            <Button Grid.Column="0" Content="Purple" Foreground="Purple" />
+            <Button Grid.Column="0" Content="Black" Foreground="Black" />
+            <Button Grid.Column="0" Content="Silver" Foreground="Silver" />
+            <Button Grid.Column="0" Content="Gray" Foreground="Gray" />
+            <Button Grid.Column="0" Content="White" Foreground="White" />
+        </TabPanel>
+                
+        
+    </Grid>
+</Window>
